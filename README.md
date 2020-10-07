@@ -1,1 +1,1 @@
-# C_Practice
+# Learning C Programming language with practice code

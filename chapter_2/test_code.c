@@ -12,7 +12,11 @@ int main()
     //float float goes to float
     //printf("%d\n", 5.5 / 2.5);
 
-    //left to right associativity
-    printf("%f", 3.0 / 8);
+    // priority:
+    // 1st : *  /  %
+    // 2nd : +   -
+    // 3rd : =
+    // when operator are of equal priority then evaluated left to right
+    printf("%d", 6 * 2 / 3);
     return 0;
 }

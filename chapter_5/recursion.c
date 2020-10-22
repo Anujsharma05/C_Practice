@@ -3,7 +3,6 @@
 int factorial(int x)
 {
     int f;
-    printf("f: %d", f);
     if (x == 0 || x == 1)
     {
         return 1;
